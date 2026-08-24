@@ -16,7 +16,7 @@ const app = document.getElementById("panggilan");
 app.className = "satuan";
 
 const tugas = document.createElement("section");
-tugas.className = "Ngentod";
+tugas.className = "bgtugas";
 const JudulT = document.createElement("h3");
 JudulT.className = "tugas";
 JudulT.textContent = "Daftar Tugas";
@@ -367,7 +367,7 @@ ambilKutiopan();
 const kota = document.createElement("input");
 const city = document.createElement("button");
 const weather = document.createElement("article");
-weather.className = "cuaca";
+weather.className = "Weather";
 const judulWeather = document.createElement("h3");
 judulWeather.textContent = "Cuaca";
 const simpanWeather = document.createElement("h3");
