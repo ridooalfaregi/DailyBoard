@@ -1,47 +1,20 @@
 header {
-    background-color: rgb(0, 255, 255);
-    color: rgb(0, 0, 0);
+    background-color: #D4AC0D;
+    text-align: center;
     padding: 1rem;
+    border: 1px solid black;
 }
 
 body {
-    background-color: white;
+    background-color: #87CEFA;
     color: black;
 
-}
-
-.Ngentod{
-    background: green;
-    height: 55%;
-
-    position: relative;
-}
-
-.tugas {
-    text-align: center;
 }
 
 .filter{
     position: absolute;
     bottom: 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 #darkmode {
     position: absolute;
@@ -52,7 +25,7 @@ body {
 .satuan {
     display: flex;
     width: 100%;
-    gap: 10px;
+    gap: 0.1px;
 }
 
 .satuan > section {
@@ -60,33 +33,34 @@ body {
 }
 
 body.dark-mode {
-    background-color: #212121;
+    background-color: #191970;
     color: white;
 }
 .hide{
     display: none;
 }
 
-.warnaAtas {
-    background-color: blueviolet;
-    height: 63vh;
-}
-
-.warnaBawah {
-    background-color: green;
-}
-
-.cuaca{
-    background: red;
-    height: 43%;
+.Weather{
+    border: 1px solid black;
+    padding: 15px;
+    min-height: 190px;
 }
 
 .kutip {
-    background-color: yellow;
-    height: 43%;
+    border: 1px solid black;
+    padding: 15px;
+    min-height: 190px;
+}
+
+.bgtugas{
+    border: 1px solid black;
+    padding: 15px;
+    min-height: 210px;
+    position: relative;
 }
 
 .catatan {
-    background-color: blue;
-    height: 55%;
+    border: 1px solid black;
+    padding: 15px;
+    min-height: 210px;
 }
